@@ -4,3 +4,6 @@ apply plugin: 'application'
 task hello << {
     println 'Hello world!'
 }
+
+sourceSets.main.java.srcDirs = ['src']
+mainClassName = "TestGradleSetup"

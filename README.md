@@ -29,7 +29,7 @@ and get a output like this:
 
     Total time: 1.302 secs
 
-# Gradle Wrapper (git hash: ccd2c06)
+# Gradle Wrapper ([Browse files](https://github.com/StefMa/HelloGradle/tree/ccd2c061ad1ed6f4891eb4de8e76983a65acf16c))
 ## What is it
 A gradle wrapper can be used for shipping gradle to other developers which don't needed to install gradle by thereself. The wrapper automaticly download and "install" gradle on the developer machine so that the other developers can run gradle like it is installed.
 ## Setup
@@ -42,7 +42,7 @@ To run the wrapper (and without explicied installation of gradle) just call
     ./gradlew
 and you will see the same help message like above (under installation).
 
-# Setup tasks (git hash: 55d73ce)
+# Setup tasks ([Browse files](https://github.com/StefMa/HelloGradle/tree/55d73ced2ba8dbf19e6a617d2ce04357afdcf09b))
 ## build.gradle File
 First of all you need a `build.gradle` file. Got to your project directory and make the file.
 Put these code in it:
@@ -59,7 +59,7 @@ Or run the tasks with the wrapper
 
 	./gradlew hello
 
-# Java plugin (git hash: 34a2044)
+# Java plugin ([Browse files](https://github.com/StefMa/HelloGradle/tree/34a2044ca1632731d1c7653e22bb5a530f8f6e23))
 ## What is it
 The gradle Java plugin brings your project support for Java compilation along with testing and bundling capabilities.
 
@@ -80,7 +80,7 @@ Your file looks now like this
 	    println 'Hello world!'
 	}
 
-# Time to code (git hash: 5104f28)
+# Time to code ([Browse files](https://github.com/StefMa/HelloGradle/tree/5104f287bf6fca6c02982766182a9cb99debf5e2))
 ## Java main method
 For testing our gradle setup we need some java code. Put a new class named TestGradleSetup to your `src/` folder and put the `main` method in it
 
